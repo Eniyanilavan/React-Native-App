@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {View,WebView} from 'react-native';
 import style from './css';
 import svg_json from '../svg_json';
-import Svg, {Path, Rect} from 'react-native-svg';
-import allpoints from './points';
 
 export class Rectangle extends Component{
     render(){

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import Svg, {Path,Defs,ClipPath} from 'react-native-svg';
 import {View, WebView} from 'react-native';
-import {Bitmap} from '../Bitmap/Bitmap';
 import svg_json from '../svg_json';
 import style from './css';
-import allpoints from './points';
 
 export class Oval extends Component{
     render(){

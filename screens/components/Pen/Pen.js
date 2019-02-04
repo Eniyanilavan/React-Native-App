@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import Svg, {Path} from 'react-native-svg';
 import svg_json from '../svg_json';
 import {View,WebView} from 'react-native';
 import style from './css';
-import allpoints from './points';
 
 
 export class Pen extends Component{
