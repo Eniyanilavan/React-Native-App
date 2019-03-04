@@ -1,0 +1,107 @@
+import React, {Component} from 'react';
+import {View} from 'react-native';
+import viewstyle from './View';
+import Svg, {ClipPath, Defs, Text as SvgText} from 'react-native-svg';
+import {Rectangle} from './components/Rectangle/Rectangle'
+import {Pen} from './components/Pen/Pen'
+import {TextField} from './components/TextField/TextField'
+import {Oval} from './components/Oval/Oval'
+export default class Send_Money extends Component{
+render(){
+return(
+<View style={{width:"100%",height:"100%",position:'relative',backgroundColor:'#f1ebfbff'}}>
+<View style = {viewstyle["118CF8EF-A08E-40AF-B9DA-19FC5EEAC775"]} id = "118CF8EF-A08E-40AF-B9DA-19FC5EEAC775">
+<View style = {viewstyle["A15C201F-0E4A-46D5-BE46-45086ED4A469"]} id = "A15C201F-0E4A-46D5-BE46-45086ED4A469">
+<View style = {viewstyle["8104B1A2-20F4-4EA4-B72F-979EC9D8894F"]} id = "8104B1A2-20F4-4EA4-B72F-979EC9D8894F">
+<Rectangle id = "015E92CC-AF35-4ADC-ADB3-48C0EC2073A7"/>
+</View>
+</View>
+</View>
+<View style = {viewstyle["F042D887-134E-454F-857D-731B3F5EC9C1"]} id = "F042D887-134E-454F-857D-731B3F5EC9C1">
+<Pen id = "B24D664D-1A02-4783-A794-5710A4AF3E11"/>
+<TextField text = "Search people or enter a number" id = "A28EBF60-AE1C-46D7-A0E5-49442898ACC8"/>
+<View style = {viewstyle["424B761D-BA11-4B35-95B1-5A499DF13D7B"]} id = "424B761D-BA11-4B35-95B1-5A499DF13D7B">
+<View style = {viewstyle["D00B52F0-B563-4891-B170-66598489707B"]} id = "D00B52F0-B563-4891-B170-66598489707B">
+<Pen id = "74261B01-BACF-43C4-B54B-2DCF167BF1DF"/>
+<Pen id = "532DC63C-EC37-444B-B82C-7AD96E2397F2"/>
+</View>
+</View>
+</View>
+<View style = {viewstyle["F912D574-9DAE-4CB8-AF51-676D2A8074DA"]} id = "F912D574-9DAE-4CB8-AF51-676D2A8074DA">
+<View style = {viewstyle["452A21BA-3A43-47FA-8D16-2EC5146657C5"]} id = "452A21BA-3A43-47FA-8D16-2EC5146657C5">
+<Oval id = "88024CE6-3113-4361-A48F-BFAFF8053B9E"/>
+<View style = {viewstyle["8CE583CB-9DA3-4F97-B496-B177300A9518"]} id = "8CE583CB-9DA3-4F97-B496-B177300A9518">
+<Pen id = "D9FF8105-0E72-4998-AD2F-A3C44AE2F159"/>
+</View>
+<TextField text = "Mobile
+Recharge" id = "03558867-238A-40A8-BD77-CFDA33DB4625"/>
+</View>
+<View style = {viewstyle["12B9F9D5-AAE3-4EAA-9EDF-69493F7FE0A5"]} id = "12B9F9D5-AAE3-4EAA-9EDF-69493F7FE0A5">
+<Oval id = "5CB79820-AB2F-4C83-84A3-1358ABB79BCD"/>
+<TextField text = "Bill
+Payments" id = "417B9010-D026-44F8-A168-86787345C95D"/>
+<View style = {viewstyle["10F20DB1-ED30-4E60-8D42-1618B76DFF93"]} id = "10F20DB1-ED30-4E60-8D42-1618B76DFF93">
+<Pen id = "AC3F58CE-3CFD-45A3-9A12-4ED63B6946A0"/>
+</View>
+</View>
+<View style = {viewstyle["4D579C63-00C2-4113-B855-0524AA2D7FAC"]} id = "4D579C63-00C2-4113-B855-0524AA2D7FAC">
+<Oval id = "B8FA2F84-9699-4C5A-8B14-993E750BF9F6"/>
+<TextField text = "Bank
+Tranfer" id = "F49E90D2-3099-4F8C-B18A-777943E402A6"/>
+<View style = {viewstyle["05A9877E-E194-43DA-A4A4-6624D1E4AE09"]} id = "05A9877E-E194-43DA-A4A4-6624D1E4AE09">
+<Pen id = "AB1BA927-0F43-42CE-B5BA-978F77CD04CB"/>
+</View>
+</View>
+<View style = {viewstyle["2F6486A1-1B13-44A2-9C9D-70C21A94B0DF"]} id = "2F6486A1-1B13-44A2-9C9D-70C21A94B0DF">
+<Oval id = "379823C6-6C31-426B-B02E-9EBD9505B509"/>
+<View style = {viewstyle["F1649189-097E-4293-AD8E-18E096C13D06"]} id = "F1649189-097E-4293-AD8E-18E096C13D06">
+<Pen id = "060C98CD-AA0C-4A13-ABB6-3B3D323ECA56"/>
+</View>
+<TextField text = "Nearby" id = "4F19EDB0-7AA5-455D-AC1B-7D59CE70A1B7"/>
+</View>
+</View>
+<TextField text = "YayPay Contacts" id = "9112A162-843F-4DCE-96A0-D8A9B2979391"/>
+<TextField text = "Randall Ballard" id = "0224597A-0E17-4E82-88DC-6AEFB7051D29"/>
+<TextField text = "Theodore Johnston" id = "D2E5AD53-3E4A-44BE-9D98-F571FBF39647"/>
+<TextField text = "+61 23623 43425" id = "32889846-F311-4AB8-AECF-276A50244739"/>
+<TextField text = "+12 34523 46326" id = "F895FBAC-97BE-4E3A-96DE-95B28F665B86"/>
+<View style = {viewstyle["94784440-6BEA-4999-89D7-59E3BB25CE43"]} id = "94784440-6BEA-4999-89D7-59E3BB25CE43">
+<Oval id = "9BF845EA-7F67-46C8-B2B8-71408BB3A1F4"/>
+</View>
+<View style = {viewstyle["25941E8D-0B73-47CC-8F7D-9442ACC95384"]} id = "25941E8D-0B73-47CC-8F7D-9442ACC95384">
+<View style = {viewstyle["696694B8-636A-434E-937F-FE9BE1B930CF"]} id = "696694B8-636A-434E-937F-FE9BE1B930CF">
+<Pen id = "3F20A306-BA3B-42D5-8FDA-07E810B332EA"/>
+</View>
+</View>
+<View style = {viewstyle["61F1E7DB-B7F4-4AFE-A428-54DC7084F64B"]} id = "61F1E7DB-B7F4-4AFE-A428-54DC7084F64B">
+<Oval id = "2511EB51-1A13-492B-993A-7BF445A2B39F"/>
+</View>
+<View style = {viewstyle["690C9FB9-3BA2-4CC0-8736-20AFD64B088F"]} id = "690C9FB9-3BA2-4CC0-8736-20AFD64B088F">
+<Oval id = "1A9FE34C-D247-4CDA-9C1D-D2C12683128E"/>
+</View>
+<View style = {viewstyle["52378B2F-D077-4A4A-9C95-E29A7AFA3E35"]} id = "52378B2F-D077-4A4A-9C95-E29A7AFA3E35">
+<Oval id = "D6FDC691-7C22-40AB-BF38-61DC55EC8FD5"/>
+</View>
+<TextField text = "Sallie Duncan" id = "E7589279-F57D-4DBA-9023-CC8779AA916D"/>
+<TextField text = "+35 12342 45633" id = "3670BD24-BA24-47DF-8623-5E222F22A637"/>
+<TextField text = "Nell Hayes" id = "89BA7E11-6FBD-452C-9FA1-705D104E5464"/>
+<TextField text = "+91 98988 88648" id = "5BB72D9B-7D18-494E-B363-3251EB4B73A5"/>
+<View style = {viewstyle["622AF94A-CF5A-4115-8095-C7213729E697"]} id = "622AF94A-CF5A-4115-8095-C7213729E697">
+<View style = {viewstyle["696694B8-636A-434E-937F-FE9BE1B930CF"]} id = "696694B8-636A-434E-937F-FE9BE1B930CF">
+<Pen id = "3F20A306-BA3B-42D5-8FDA-07E810B332EA"/>
+</View>
+</View>
+<View style = {viewstyle["FD9BFBFA-EDFD-440B-9C39-AD356DBBE1EF"]} id = "FD9BFBFA-EDFD-440B-9C39-AD356DBBE1EF">
+<View style = {viewstyle["696694B8-636A-434E-937F-FE9BE1B930CF"]} id = "696694B8-636A-434E-937F-FE9BE1B930CF">
+<Pen id = "3F20A306-BA3B-42D5-8FDA-07E810B332EA"/>
+</View>
+</View>
+<View style = {viewstyle["888CCC9B-AA92-41AE-887A-E23F79D85EEE"]} id = "888CCC9B-AA92-41AE-887A-E23F79D85EEE">
+<View style = {viewstyle["696694B8-636A-434E-937F-FE9BE1B930CF"]} id = "696694B8-636A-434E-937F-FE9BE1B930CF">
+<Pen id = "3F20A306-BA3B-42D5-8FDA-07E810B332EA"/>
+</View>
+</View>
+</View>
+);
+}
+}

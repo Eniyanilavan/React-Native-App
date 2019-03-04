@@ -1,0 +1,139 @@
+import React, {Component} from 'react';
+import {View} from 'react-native';
+import viewstyle from './View';
+import Svg, {ClipPath, Defs, Text as SvgText} from 'react-native-svg';
+import {Rectangle} from './components/Rectangle/Rectangle'
+import {TextField} from './components/TextField/TextField'
+import {Oval} from './components/Oval/Oval'
+import {Pen} from './components/Pen/Pen'
+export default class Nav_Drawer extends Component{
+render(){
+return(
+<View style={{width:"100%",height:"100%",position:'relative',backgroundColor:'#ffffffff'}}>
+<View style = {viewstyle["1146129B-A450-460E-BD14-EFEC84C60BB5"]} id = "1146129B-A450-460E-BD14-EFEC84C60BB5">
+<Rectangle id = "050B6436-EBB0-4C9C-BE43-F75EDF960801"/>
+<View style = {viewstyle["D8EECFBF-3994-465E-87C0-06DFCC2B9EBD"]} id = "D8EECFBF-3994-465E-87C0-06DFCC2B9EBD">
+<TextField text = "Lewis-Marketing" id = "6AE4041A-5987-49F0-A2C2-E8ADBE7975A4"/>
+<TextField text = "Has invited you to chat" id = "4800E616-1834-4144-B528-917E64B1E36B"/>
+</View>
+<View style = {viewstyle["1CFA8832-F823-446B-95AB-7E294AF859F4"]} id = "1CFA8832-F823-446B-95AB-7E294AF859F4">
+<Rectangle id = "ACF99619-7BE6-4A79-8C1B-42B491AB979D"/>
+</View>
+</View>
+<View style = {viewstyle["3C4CADE9-877B-4C82-8FC1-4117F616B6C8"]} id = "3C4CADE9-877B-4C82-8FC1-4117F616B6C8">
+<Rectangle id = "EC33EC6A-073F-42D1-A6CF-FD6D84D9C599"/>
+<View style = {viewstyle["5AD28633-C37E-419B-8F3B-BF99C2DC98F9"]} id = "5AD28633-C37E-419B-8F3B-BF99C2DC98F9">
+<TextField text = "#Misaki - Marketing team" id = "B496C40B-2A80-46FF-AFE6-7038E9B85C46"/>
+<TextField text = "So far the best feature." id = "29DDE50D-A057-4EE8-83C7-E10A42B37911"/>
+</View>
+<View style = {viewstyle["8D96AE7C-F7C7-4388-BAF4-BBA73DF1B98E"]} id = "8D96AE7C-F7C7-4388-BAF4-BBA73DF1B98E">
+<Rectangle id = "1A6979F4-43C7-4208-B67E-AC1B096337A3"/>
+</View>
+<TextField text = "05:55 AM" id = "55F9ED0F-49AB-462D-8A49-9E0274C24050"/>
+</View>
+<View style = {viewstyle["2AD0E153-0AD4-4CE9-9F8A-D0E5ABB666EB"]} id = "2AD0E153-0AD4-4CE9-9F8A-D0E5ABB666EB">
+<Rectangle id = "7AC4A216-5E57-4273-B24B-3735AC041D5C"/>
+<View style = {viewstyle["8683AB57-D159-4E3C-9E14-961CD3E9A4A3"]} id = "8683AB57-D159-4E3C-9E14-961CD3E9A4A3">
+<TextField text = "Reyansh Ahuja" id = "E9D170D7-A5D9-45D0-ABD0-D224AF720C50"/>
+<TextField text = "You: Yayy! Congrats Team." id = "24BD54A8-6856-4685-A55B-BDC7A7C5387B"/>
+</View>
+<View style = {viewstyle["46435F41-BD95-420E-A770-8C5E7E2E778E"]} id = "46435F41-BD95-420E-A770-8C5E7E2E778E">
+<Rectangle id = "0AC13F1B-2245-464E-AF2B-E2076451380C"/>
+</View>
+<TextField text = "07:24 PM" id = "F04F6063-F625-43DA-BF61-AD83880081CA"/>
+</View>
+<View style = {viewstyle["05851E98-D0C9-4709-8CBA-5A01DE3B4BBA"]} id = "05851E98-D0C9-4709-8CBA-5A01DE3B4BBA">
+<Rectangle id = "019683F7-9F5F-498F-B09C-D3B0EC597042"/>
+<View style = {viewstyle["F570C0D3-43BF-44E8-83F3-165E3C7302A9"]} id = "F570C0D3-43BF-44E8-83F3-165E3C7302A9">
+<TextField text = "Carl" id = "68503B38-7605-48E6-AD55-F8F601EBDE10"/>
+<TextField text = "In the meeting" id = "DA8D882B-ADB2-4840-8568-40AD5F2E303C"/>
+</View>
+<View style = {viewstyle["AC552EF2-3D09-44BB-90AC-27CE59D984E7"]} id = "AC552EF2-3D09-44BB-90AC-27CE59D984E7">
+<Rectangle id = "A988D113-ED28-45F4-947F-3B11FA54D83A"/>
+</View>
+<TextField text = "01:30 PM" id = "2761AF30-5DAA-44AA-8CD7-420654222A83"/>
+</View>
+<View style = {viewstyle["3CBD8DFE-63A9-4AC3-B475-BEC9618715A9"]} id = "3CBD8DFE-63A9-4AC3-B475-BEC9618715A9">
+<Rectangle id = "EA9ACA13-A3B6-4D1F-A950-C132195EB090"/>
+<View style = {viewstyle["791A05F1-03EA-4124-9D8B-27462B648772"]} id = "791A05F1-03EA-4124-9D8B-27462B648772">
+<TextField text = "Carl" id = "5FA039EF-EC11-4EBE-BE29-5B6B7F841DAE"/>
+<TextField text = "In the meeting" id = "30FA4000-23B5-404D-AFE2-91045B37B89D"/>
+</View>
+<View style = {viewstyle["5FF253BA-13AF-4E10-B1B6-C8826853E8BE"]} id = "5FF253BA-13AF-4E10-B1B6-C8826853E8BE">
+<Rectangle id = "E6867D23-286D-405F-9BFA-5FA47A53C067"/>
+</View>
+<TextField text = "01:30 PM" id = "501D8012-CB16-48F4-90B5-690DAFB062D2"/>
+</View>
+<View style = {viewstyle["0E15719D-5ACB-48EA-A720-A79C2827AE51"]} id = "0E15719D-5ACB-48EA-A720-A79C2827AE51">
+<Rectangle id = "EDB8568A-6948-46DE-B598-866F777EF18A"/>
+<View style = {viewstyle["80FFA1E3-132A-440D-9E35-B377996A5F38"]} id = "80FFA1E3-132A-440D-9E35-B377996A5F38">
+<TextField text = "Paula Rojas" id = "59C5B67C-BEE2-45B7-8DBF-854638C95365"/>
+<TextField text = "In the upcoming product launch." id = "08C24882-63C7-4D2B-AB4A-58B57AA0BD1C"/>
+<TextField text = "10:22 PM" id = "A75B4DC6-8B15-4182-82D2-ADB89B4D41B7"/>
+<View style = {viewstyle["9C77CA8A-1B76-47DE-8038-227DA1544AEA"]} id = "9C77CA8A-1B76-47DE-8038-227DA1544AEA">
+<Rectangle id = "8FCE4619-5991-4771-BC1A-8C3DBE0C7DD8"/>
+<TextField text = "20" id = "653AC187-6541-44C7-B024-38A3D435FD18"/>
+</View>
+</View>
+<View style = {viewstyle["ED7847E4-9560-4FAF-935D-DA3F41E9123E"]} id = "ED7847E4-9560-4FAF-935D-DA3F41E9123E">
+<Rectangle id = "CA40C618-D00C-483B-8A97-3670A27DCBD5"/>
+</View>
+</View>
+<View style = {viewstyle["34889A1E-82C8-48FE-A632-B21703CB93D2"]} id = "34889A1E-82C8-48FE-A632-B21703CB93D2">
+<Rectangle id = "662C6425-BB9C-441E-9462-EB5225DD4DA2"/>
+<View style = {viewstyle["CC5FD61E-E7BF-40D8-9A48-0E1116637268"]} id = "CC5FD61E-E7BF-40D8-9A48-0E1116637268">
+<TextField text = "Quinn - Technical Architect" id = "45DD25D9-477B-44D1-A854-726BCCA32419"/>
+<TextField text = "You:" id = "039FD021-E882-445C-AF0B-B4D8EE8B2A87"/>
+<TextField text = "Image" id = "B21EB6F7-8CB8-4A64-893A-233DF1D4BD86"/>
+<View style = {viewstyle["C1370107-8B2B-4BD8-A8E6-2D45B399C1F1"]} id = "C1370107-8B2B-4BD8-A8E6-2D45B399C1F1">
+<Oval id = "6F59B3AD-1824-481A-8AF6-0CF0FBCD0B59"/>
+<Pen id = "FE27D752-5C36-4C5F-8664-D6B3459232E1"/>
+<Pen id = "F56ABE83-2F5F-44AE-84D5-1748010C13DE"/>
+</View>
+</View>
+<View style = {viewstyle["3F4E975E-9D2A-4C77-88B6-86EA9EA958DC"]} id = "3F4E975E-9D2A-4C77-88B6-86EA9EA958DC">
+<Rectangle id = "C72856AF-D43D-4A32-8E8E-0D7DDF751040"/>
+</View>
+<TextField text = "03:06 PM" id = "A110446D-DC86-450E-902C-CBE8DBBC6BC6"/>
+</View>
+<View style = {viewstyle["4C6853D4-2AD1-427A-9D05-4866BC8BEFAE"]} id = "4C6853D4-2AD1-427A-9D05-4866BC8BEFAE">
+<Oval id = "93B5905B-F0A8-4585-B69E-0298C3F36C6F"/>
+<View style = {viewstyle["0A613611-1432-4780-A8E9-05551D95F92A"]} id = "0A613611-1432-4780-A8E9-05551D95F92A">
+<Pen id = "C8BF2410-A41A-4ED5-AFDC-B1B979B1B3BC"/>
+<Pen id = "BFB9F430-B45A-4E9C-AEF2-5357EA031E4C"/>
+</View>
+</View>
+<View style = {viewstyle["56D83D16-A0B2-4C27-A4E1-51F6FA0861C5"]} id = "56D83D16-A0B2-4C27-A4E1-51F6FA0861C5">
+<Rectangle id = "1307F643-E561-4841-A693-FB6A500DDFE4"/>
+<View style = {viewstyle["C7B8B025-57E0-40E2-9C6B-B9A65AEDC316"]} id = "C7B8B025-57E0-40E2-9C6B-B9A65AEDC316">
+<TextField text = "#developement - Zylker" id = "F8A11772-A0C6-4FA5-B434-FC1B5E1AF518"/>
+<TextField text = "I have the stats for our recent blog" id = "BD49CB2A-CF72-42C6-85A0-2793006030F4"/>
+<TextField text = "08:01 PM" id = "24ED811C-21B2-4EBA-9C19-AC72EC396A06"/>
+</View>
+<View style = {viewstyle["E5C68C29-5171-4318-9FBA-857EA4418801"]} id = "E5C68C29-5171-4318-9FBA-857EA4418801">
+<Rectangle id = "C58D7012-6920-4137-BA10-CFAA8893A93F"/>
+</View>
+</View>
+<View style = {viewstyle["ADAB2FC3-E585-450C-86D7-2E01D0C8571E"]} id = "ADAB2FC3-E585-450C-86D7-2E01D0C8571E">
+<View style = {viewstyle["D909B511-8137-4350-9832-535A9E5825E9"]} id = "D909B511-8137-4350-9832-535A9E5825E9">
+<Pen id = "7DF9C046-CBAC-44BC-8654-5793E5239E64"/>
+<View style = {viewstyle["9FBF38A2-21C4-4207-BE1F-F681FA5860E3"]} id = "9FBF38A2-21C4-4207-BE1F-F681FA5860E3">
+<Rectangle id = "677E050C-91F6-45B8-B94C-67087A166EC4"/>
+</View>
+<View style = {viewstyle["9D68C175-E609-4ADE-9B84-154EA7B54521"]} id = "9D68C175-E609-4ADE-9B84-154EA7B54521">
+<Rectangle id = "5E4748E0-3645-434A-8528-E57B87B88859"/>
+<View style = {viewstyle["67C4FA6B-258A-47F6-813E-CA30B16ADB4D"]} id = "67C4FA6B-258A-47F6-813E-CA30B16ADB4D">
+<Pen id = "91A71B7C-7EEA-459D-99CA-53DB41FE8DA6"/>
+</View>
+<TextField text = "Cliq" id = "1E9A5C08-0237-4F08-86AC-7334B9ADC853"/>
+<View style = {viewstyle["026C01E9-6A06-4DEB-BD6F-A2A5E812EE17"]} id = "026C01E9-6A06-4DEB-BD6F-A2A5E812EE17">
+</View>
+<Pen id = "BC270B9D-149D-44B3-9C58-90A4E784639F"/>
+</View>
+</View>
+</View>
+<Rectangle id = "8547A900-BFF1-4CD0-A57E-4EA6CF6606A5"/>
+</View>
+);
+}
+}
